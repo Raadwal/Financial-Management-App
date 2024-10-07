@@ -1,0 +1,95 @@
+.container {
+    font-family: Arial, sans-serif;
+}
+
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.headerSection h1 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.addBtn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.infoSection {
+    margin: 0 auto;
+}
+
+.infoSection table {
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.infoSection th {
+    padding: 10px;
+    background-color: #758BFD;
+    color: white;
+    text-align: center;
+}
+
+.infoSection td {
+    padding: 10px;
+}
+
+.infoSection th:nth-child(-n+4) {
+    width: 20%;
+}
+.infoSection th:nth-child(5),
+.infoSection th:nth-child(6) {
+    width: 10%;
+}
+
+.infoSection tr:nth-child(even) {
+    background-color: #AEB8FE;
+    color: #F1F2F6;
+}
+
+.modifyBtn, .deleteBtn, .showBtn, .addBtn {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.addBtn {
+    background-color: green;
+}
+
+.modifyBtn {
+    background-color: orange;
+}
+
+.deleteBtn {
+    background-color: red;
+}
+
+.showBtn {
+    color: white;
+    background-color: #27187E;
+}
+
+.modifyBtn:hover, .deleteBtn:hover, .showBtn:hover, .addBtn:hover {
+    filter: brightness(0.9);
+}
+
+.modifyBtn:active, .deleteBtn:active, .showBtn:active, .addBtn:active {
+    transform: scale(0.95);
+}

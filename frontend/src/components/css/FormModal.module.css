@@ -1,0 +1,80 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F1F2F6;
+}
+
+.formWrapper {
+    background-color: #758BFD;
+    padding: 30px;
+    border-radius: 8px;
+   
+    border: solid 3px black;
+}
+
+.formWrapper h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.formWrapper label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.formWrapper label, .formWrapper input, .formWrapper button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formWrapper input {
+    width: 200px;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.buttonsRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.formWrapper button {
+    padding: 10px 20px;
+    border: 3px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #F1F2F6;
+    color: #27187E;
+}
+.formWrapper button:hover {
+    background-color: #AEB8FE;
+}
+
+.formWrapper button:active {
+    background-color: #758BFD;
+}
+
+.formWrapper a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}

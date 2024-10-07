@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #758BFD;
+    padding: 10px;
+    box-shadow: 0px 0px 16px #758BFD;
+    height: 4rem;
+}
+
+.header div:first-child {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header div:last-child {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header a {
+    color: #F1F2F6;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    line-height: 5rem;
+    font-size: calc(4rem * 0.4);
+}
+
+.header a:hover {
+    color: #AEB8FE;
+}

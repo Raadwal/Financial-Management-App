@@ -1,0 +1,91 @@
+.container {
+    font-family: Arial, sans-serif;
+}
+
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.headerSection h1 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.addBtn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.goalsSection {
+    margin: 0 auto;
+}
+
+.goalsSection table {
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.goalsSection th {
+    padding: 10px;
+    background-color: #758BFD;
+    color: white;
+    text-align: center;
+}
+
+.goalsSection td {
+    padding: 10px;
+}
+
+.modifyBtn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    background-color: red;
+    color: #F1F2F6;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.goalsSection th:nth-child(-n+4) {
+    width: 20%;
+}
+.goalsSection th:nth-child(5),
+.goalsSection th:nth-child(6) {
+    width: 10%;
+}
+
+.goalsSection tr:nth-child(even) {
+    background-color: #AEB8FE;
+    color: #F1F2F6;
+}
+
+.addGoalBtn, .modifyBtn, .addBtn, .deleteBtn {
+    border-radius: 5px; 
+    transition: all 0.3s;
+}
+
+.addGoalBtn:hover, .modifyBtn:hover, .deleteBtn:hover {
+    filter: brightness(0.9);
+}
+
+.addGoalBtn:active, .modifyBtn:active, .deleteBtn:active {
+    transform: scale(0.95);
+}
